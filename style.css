@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2b4259;;
+}
+.container{
+    margin: 0 auto;
+    width: 325px;
+    height: 220px;
+    
+}
+form{
+    margin-top: 50px;
+    border: 2px solid rgb(26, 24, 24);
+    border-radius: 10px;
+}
+#screen{
+    width: 317px;
+    /* height: 35px; */
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 2em;
+}
+#btn{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    
+    /* min-height: 100vh; */
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: minmax(80px, auto) repeat(4,80px);
+}
+#btn>.del{
+    grid-column: span 2;
+    padding: 10px;
+    font-size: 1.5em;
+}
+/* .btn{
+    border-radius: 5px;
+} */
+.numberButton{
+    padding: 10px;
+    font-size: 1.5em;
+}
+.operatorButton{ 
+    padding: 10px;
+    font-size: 1.5em;
+}
+.equalButton{
+    padding: 10px;
+    font-size: 1.5em;
+}
